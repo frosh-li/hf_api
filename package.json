@@ -1,0 +1,19 @@
+{
+  "name": "hf_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "lijunliang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "colors": "^1.1.2",
+    "express": "^4.13.4",
+    "request": "^2.69.0",
+    "response-time": "^2.3.1",
+    "session-file-store": "^0.2.0",
+  },
+  "devDependencies": {
+    "express-session": "^1.13.0"
+  }
+}
