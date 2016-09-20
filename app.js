@@ -15,8 +15,13 @@ global.request = require('request');
 
 
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: true,limit:'1mb' }));
-app.use(bodyParser.json({limit: '1mb'}));
+app.use(bodyParser.urlencoded({
+    extended: true,
+    limit: '1mb'
+}));
+app.use(bodyParser.json({
+    limit: '1mb'
+}));
 
 // parse application/json
 app.use(bodyParser.json());
@@ -48,7 +53,7 @@ logger.info('Current NODE_ENV', JSON.stringify(process.env.NODE_ENV));
 app.all('*', function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "X-Requested-With");
-    res.header("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS");
+    res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
     res.header("Content-Type", "application/json;charset=utf-8");
     next();
 });
@@ -56,9 +61,8 @@ app.all('*', function(req, res, next) {
 app.use(require('response-time')());
 app.use('/api/', apiRouter);
 
-app.listen(10081, function () {
+app.listen(10081, function() {
     logger.info('server listening on port 10081');
     logger.info('You can debug your app with http://127.0.0.1:10081');
     logger.info('');
-  });
-
+});
