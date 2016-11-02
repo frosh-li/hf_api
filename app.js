@@ -1,13 +1,13 @@
 var express = require('express');
 var app = express();
 require('colors');
-var fs = require('fs');
+// var fs = require('fs');
 var logger = require('./common/logger');
-var path = require('path');
+// var path = require('path');
 
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser');
 
-var session = require('express-session');
+// var session = require('express-session');
 
 var apiRouter = require('./apiRouter.js');
 

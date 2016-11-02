@@ -1,19 +1,84 @@
 {
-  "name": "hf_api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "author": "lijunliang",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "*",
-    "colors": "^1.1.2",
-    "express": "^4.13.4",
-    "log4js": "^0.6.38",
-    "request": "^2.69.0",
-    "response-time": "^2.3.1"
+  "_args": [
+    [
+      {
+        "raw": "xapinit",
+        "scope": null,
+        "escapedName": "xapinit",
+        "name": "xapinit",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/junliang/server/www"
+    ]
+  ],
+  "_cnpm_publish_time": 1474427619063,
+  "_from": "xapinit@latest",
+  "_inCache": true,
+  "_location": "/xapinit",
+  "_nodeVersion": "5.1.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/xapinit-1.0.0.tgz_1474427616796_0.27979938103817403"
   },
-  "devDependencies": {
-    "express-session": "^1.13.0"
-  }
+  "_npmUser": {
+    "name": "frosh",
+    "email": "junguoliang@163.com"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "xapinit",
+    "scope": null,
+    "escapedName": "xapinit",
+    "name": "xapinit",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/xapinit/download/xapinit-1.0.0.tgz",
+  "_shasum": "8060aea67ba942754038de26a8f4dbf048722f78",
+  "_shrinkwrap": null,
+  "_spec": "xapinit",
+  "_where": "/Users/junliang/server/www",
+  "author": "lijunliang",
+  "bin": {
+    "hf.xapi": "start"
+  },
+  "bugs": {
+    "url": "https://github.com/frosh-li/hf_api/issues"
+  },
+  "dependencies": {
+    "log4js": "^0.6.38"
+  },
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8060aea67ba942754038de26a8f4dbf048722f78",
+    "size": 3991,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/xapinit/download/xapinit-1.0.0.tgz"
+  },
+  "homepage": "https://github.com/frosh-li/hf_api#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    "frosh <junguoliang@163.com>"
+  ],
+  "name": "xapinit",
+  "optionalDependencies": {},
+  "publish_time": 1474427619063,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frosh-li/hf_api.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0",
+  "description": ""
 }
