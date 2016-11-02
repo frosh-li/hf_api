@@ -3,8 +3,6 @@
 */
 var express = require('express');
 var smsController = require('./api/sms');
-var config = require('./config');
-
 var router = express.Router();
 
 router.get('/info/', smsController.info);

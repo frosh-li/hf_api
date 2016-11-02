@@ -9,7 +9,7 @@
 	"env_sit": {
 		"NODE_ENV":"sit"
 	},
-	"watch":true,
+	"watch":false,
 	"ignore_watch":["[\\/\\\\]\\./","node_modules", "sessions",".git",".gitignore"],
 	"exec_mode": "cluster_mode",
 	"instances": 4
